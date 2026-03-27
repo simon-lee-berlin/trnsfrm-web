@@ -12,7 +12,6 @@
     :root {
       --black: #0a0a0a;
       --white: #f5f4f0;
-      --accent: #f5f4f0;
     }
 
     html, body {
@@ -29,12 +28,10 @@
       min-height: 100vh;
     }
 
-    /* ── HEADER ── */
     header {
       padding: 2rem 2.5rem 1.5rem;
       display: flex;
       align-items: center;
-      gap: 1.2rem;
       opacity: 0;
       animation: fadeUp 0.8s ease forwards;
     }
@@ -46,7 +43,6 @@
       text-transform: uppercase;
     }
 
-    /* ── MAIN ── */
     main {
       flex: 1;
       display: flex;
@@ -87,7 +83,6 @@
       text-align: right;
     }
 
-    /* ── FOOTER ── */
     footer {
       padding: 1.5rem 2.5rem 2rem;
       display: flex;
@@ -121,13 +116,11 @@
       border-color: var(--white);
     }
 
-    /* ── ANIMATIONS ── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(16px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
       header { padding: 1.5rem 1.2rem 1rem; }
       main   { padding: 1rem 1.2rem 1.5rem; }
@@ -148,10 +141,10 @@
           src="https://player.vimeo.com/video/1176267516?badge=0&autopause=0&player_id=0&app_id=58479"
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
-          title="Haus aus Müll – CRCLR House">
+          title="Haus aus Müll - CRCLR House">
         </iframe>
       </div>
-      <p class="video-caption">Haus aus Müll – CRCLR House</p>
+      <p class="video-caption">Haus aus Müll - CRCLR House</p>
     </div>
   </main>
 
@@ -161,4 +154,10 @@
       Transformation bauen
     </div>
     <div class="footer-right">
-      <a href="/cdn-cgi/l/email-protection#3c55525a537c484e524f5a4e5112534e5b"><span class="__cf_email__" data-cfemail="ea83848c85aa9e9884998c9887c485988d">[email&#16
+      <a href="mailto:info@trnsfrm.org">info&#64;trnsfrm.org</a>
+    </div>
+  </footer>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
